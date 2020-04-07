@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="HAy-Ha-saS">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uZG-oS-jyM" customClass="HomeViewController" customModule="LoginWithFirebase" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bXc-gu-VR9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mzr-mN-Kf1">
+                                <rect key="frame" x="88" y="184" width="238" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="さんようこそ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zeq-f9-7UJ">
+                                <rect key="frame" x="146" y="356" width="122.5" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="test@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2zU-gg-45C">
+                                <rect key="frame" x="145.5" y="400" width="123" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="作成日: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wMH-YM-Zkz">
+                                <rect key="frame" x="176.5" y="441" width="61.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DmU-2A-kCX">
+                                <rect key="frame" x="107" y="532" width="200" height="50"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="ahJ-se-tn9"/>
+                                    <constraint firstAttribute="height" constant="50" id="w30-eY-15b"/>
+                                </constraints>
+                                <state key="normal" title="Logout">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="tappedLogoutButton:" destination="uZG-oS-jyM" eventType="touchUpInside" id="zD5-S2-dKd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="wMH-YM-Zkz" firstAttribute="top" secondItem="2zU-gg-45C" secondAttribute="bottom" constant="20" id="Akg-9H-JmP"/>
+                            <constraint firstItem="zeq-f9-7UJ" firstAttribute="top" secondItem="Mzr-mN-Kf1" secondAttribute="bottom" constant="100" id="MOK-vZ-ejo"/>
+                            <constraint firstItem="zeq-f9-7UJ" firstAttribute="centerX" secondItem="bXc-gu-VR9" secondAttribute="centerX" id="NaV-ak-yqn"/>
+                            <constraint firstItem="wMH-YM-Zkz" firstAttribute="centerX" secondItem="bXc-gu-VR9" secondAttribute="centerX" id="ZGp-ki-mFW"/>
+                            <constraint firstItem="DmU-2A-kCX" firstAttribute="centerX" secondItem="bXc-gu-VR9" secondAttribute="centerX" id="eW4-CC-EK0"/>
+                            <constraint firstItem="Mzr-mN-Kf1" firstAttribute="centerX" secondItem="bXc-gu-VR9" secondAttribute="centerX" id="fam-HS-75H"/>
+                            <constraint firstItem="2zU-gg-45C" firstAttribute="centerX" secondItem="bXc-gu-VR9" secondAttribute="centerX" id="nwp-J8-iZ4"/>
+                            <constraint firstItem="2zU-gg-45C" firstAttribute="top" secondItem="zeq-f9-7UJ" secondAttribute="bottom" constant="20" id="oTr-bR-Tkw"/>
+                            <constraint firstItem="DmU-2A-kCX" firstAttribute="top" secondItem="wMH-YM-Zkz" secondAttribute="bottom" constant="70" id="x6w-dW-QCs"/>
+                            <constraint firstItem="Mzr-mN-Kf1" firstAttribute="top" secondItem="M6E-n5-TIh" secondAttribute="top" constant="140" id="yWU-Md-qlu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="M6E-n5-TIh"/>
+                    </view>
+                    <connections>
+                        <outlet property="LogoutButton" destination="DmU-2A-kCX" id="4iV-ea-iwN"/>
+                        <outlet property="dateLabel" destination="wMH-YM-Zkz" id="87S-T8-TAx"/>
+                        <outlet property="emailLabel" destination="2zU-gg-45C" id="0uI-j4-TLX"/>
+                        <outlet property="nameLabel" destination="zeq-f9-7UJ" id="fz6-wi-2Q6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bPD-SE-EiP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="176.81159420289856" y="109.82142857142857"/>
+        </scene>
+    </scenes>
+</document>

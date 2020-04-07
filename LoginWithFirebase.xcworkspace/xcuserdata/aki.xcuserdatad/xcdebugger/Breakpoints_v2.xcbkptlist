@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "AE892930-F2AC-4E2B-A1DE-82A4A2696385"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0725352-3CB4-410C-BFCC-88A67AD5F176"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LoginWithFirebase/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "218D2527-84BE-4D9F-9AA6-7C3F8AD29D87"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LoginWithFirebase/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "218D2527-84BE-4D9F-9AA6-7C3F8AD29D87 - 84d794790c45e947"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginWithFirebase.AppDelegate.__allocating_init() -&gt; LoginWithFirebase.AppDelegate"
+                  moduleName = "LoginWithFirebase"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aki/%E3%83%95%E3%82%9A%E3%83%AD%E3%82%AF%E3%82%99%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%AF%E3%82%99%E9%96%8B%E7%99%BA/LoginWithFirebase/LoginWithFirebase/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "218D2527-84BE-4D9F-9AA6-7C3F8AD29D87 - 8927ca24d33c052f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginWithFirebase.AppDelegate.init() -&gt; LoginWithFirebase.AppDelegate"
+                  moduleName = "LoginWithFirebase"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aki/%E3%83%95%E3%82%9A%E3%83%AD%E3%82%AF%E3%82%99%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%AF%E3%82%99%E9%96%8B%E7%99%BA/LoginWithFirebase/LoginWithFirebase/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  uuid = "218D2527-84BE-4D9F-9AA6-7C3F8AD29D87 - db3a1bf28bce8bee"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LoginWithFirebase.AppDelegate.__deallocating_deinit"
+                  moduleName = "LoginWithFirebase"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aki/%E3%83%95%E3%82%9A%E3%83%AD%E3%82%AF%E3%82%99%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%AF%E3%82%99%E9%96%8B%E7%99%BA/LoginWithFirebase/LoginWithFirebase/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "218D2527-84BE-4D9F-9AA6-7C3F8AD29D87 - bf2f9b5f9a166dd5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "LoginWithFirebase"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aki/%E3%83%95%E3%82%9A%E3%83%AD%E3%82%AF%E3%82%99%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%AF%E3%82%99%E9%96%8B%E7%99%BA/LoginWithFirebase/LoginWithFirebase/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
